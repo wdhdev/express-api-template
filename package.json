@@ -1,0 +1,23 @@
+{
+  "name": "express-api-template",
+  "version": "1.0.0",
+  "description": "An Express API template with Cors and Sentry.",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wdhdev/express-api-template.git"
+  },
+  "author": "William Harrison",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wdhdev/express-api-template/issues"
+  },
+  "homepage": "https://github.com/wdhdev/express-api-template#readme",
+  "dependencies": {
+    "@sentry/node": "^7.54.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2"
+  }
+}
